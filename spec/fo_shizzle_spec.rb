@@ -9,4 +9,9 @@ describe('String#foshizzle') do
   it('does not change a capital s') do
     expect('Susan'.foshizzle()).to(eq('Suzan'))
   end
+
+  it('does not change the first letter of a string') do
+    expect('Susans sample test'.foshizzle()).to(eq('Suzanz sample tezt'))
+  end
+  
 end

@@ -1,0 +1,6 @@
+Authors:  Ben Cornelis & Jesse James
+Method:  foshizzle.rb
+Date:  April 20, 2015
+
+Summary:  Method created to changes "s" in String to "z" except when captialized
+or when first letter in a String
